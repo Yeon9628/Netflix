@@ -21,7 +21,7 @@ const Navigation = ({ searchProps }) => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand className='nav_img' onClick={goToHomepage}><img width={85} src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png'/></Navbar.Brand>
+        <Navbar.Brand className='nav_img' onClick={goToHomepage}><img width={85} src='https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
